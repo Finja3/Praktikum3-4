@@ -1,0 +1,8 @@
+# Visual Studio
+.vs/
+[Dd]ebug/
+[Rr]elease/
+[Aa][Rr][Mm]64/
+x64/
+x86/
+*.user

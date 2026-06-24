@@ -1,0 +1,8 @@
+Bett<>bed
+Bücherregal<>bookshelf
+Kaffeetisch<>coffee table
+Schrank<>cupboard
+Spiegel<>mirror
+Tisch<>table
+Kleiderschrank<>wardrobe
+Teppich<>carpet

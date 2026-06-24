@@ -1,0 +1,12 @@
+Ananas<>pineapple
+Apfel<>apple
+Aprikose<>apricot
+Banane<>banana
+Erdbeere<>strawberry
+Himbeere<>raspberry
+Kiwi<>kiwi
+Kokusnuss<>coconut
+Melone<>melon
+Pfirsich<>peach
+Pflaume<>plum
+Zitrone<>lemon
