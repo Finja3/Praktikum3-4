@@ -10,3 +10,6 @@ Solange startQuery() mit einem konkreten Klassentyp statt mit einem abstrakten S
 
 V3:
 Swischen klasse so wie wir es im unterich gemacht haben damit man auswählen kann wie man seinen Karten sortirt haben will z.b.
+
+A3:
+Im Methodenkörper wird q nur über die Methoden linkVocabList(), query() und queryResults() angesprochen, und genau diese drei Methoden sind bereits in der Schnittstelle IQuery deklariert. CVocabTrainer muss also gar nicht wissen, welcher konkrete Abfragemodus dahintersteckt, es reicht der Basisklassen-Zeiger IQuery*. Da query() (und linkVocabList()) virtuell sind, sorgt die dynamische Bindung dafür, dass beim Aufruf q->query() automatisch die query()-Methode der tatsächlich übergebenen Klasse ausgeführt wird, z. B. die von CRandomQuery oder die eines neuen Modus. Deshalb funktioniert die Methode für jeden beliebigen Abfragemodus, ohne dass der Code im Inneren angepasst werden muss.

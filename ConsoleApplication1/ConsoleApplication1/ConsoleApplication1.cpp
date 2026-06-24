@@ -7,7 +7,7 @@ int main() {
 	system("chcp 1252"); system("cls");
 
 	CVocabTrainer t;
-	bool b = t.importLesson("EN", "fruits");
+	bool b = t.importLesson("EN", "household");
 	t.startQuery(new CRandomQuery());
 
 	return EXIT_SUCCESS;

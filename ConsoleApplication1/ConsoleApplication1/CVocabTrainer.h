@@ -23,7 +23,7 @@ public:
 		return true;
 	}
 
-	int startQuery(CRandomQuery* q) {
+	int startQuery(IQuery* q) {
 		if (l == nullptr) return 0;		// Wenn noch keine Lektion geladen wurde, stppe Abfrage
 
 		q->linkVocabList(l->getVocabList());

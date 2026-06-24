@@ -206,6 +206,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CRandomQuery.h" />
+    <ClInclude Include="IQuery.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="EN_fruits.txt" />
+    <Text Include="EN_household.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

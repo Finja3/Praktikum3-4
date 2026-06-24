@@ -1,5 +1,5 @@
 Bett<>bed
-Bücherregal<>bookshelf
+BÃ¼cherregal<>bookshelf
 Kaffeetisch<>coffee table
 Schrank<>cupboard
 Spiegel<>mirror

@@ -17,7 +17,7 @@ private:
 public:
 	// Konstruktor für eine neue Lesson
 	CLesson(std::string l, std::string n) : name(n), language(l) {
-		std::ifstream f("lessons/" + language + "_" + name + ".txt");		// Öffne die Datei, z.B. "EN_fruits.txt"
+		std::ifstream f( language + "_" + name + ".txt");		// Öffne die Datei, z.B. "EN_fruits.txt"
 		if (f.fail()) return;
 
 		char buf[100];
