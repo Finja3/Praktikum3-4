@@ -15,29 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication1.cpp">
+    <ClCompile Include="ConsoleApplication4.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="CVocabTrainer.h">
-      <Filter>Headerdateien</Filter>
-    </ClCompile>
-    <ClCompile Include="CLesson.h">
-      <Filter>Headerdateien</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CRandomQuery.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="IQuery.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="COnceCorrectQuery.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="EN_fruits.txt" />
-    <Text Include="EN_household.txt" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
 #pragma once
 #include <string>
 #include <unordered_map>
@@ -9,13 +8,11 @@
 #include <random>
 #include "IQuery.h"
 
-class CRandomQuery : public IQuery
+class COnceCorrectQuery : public IQuery
 {
 private:
 	std::vector<std::string> vFirst;
 public:
-
-
 
 	void linkVocabList(const std::unordered_map<std::string, std::string>& list) override {
 		m = list;
@@ -39,7 +36,11 @@ public:
 			std::cout << "Klasse! Das war richtig.\n";
 		else {
 			std::cout << "Deine Antwort '" << answer << "' war leider falsch! Die richtige Antwort ist '" << rightAnswer << "'.\n";
-			wrongAnswers.insert(vFirst.back());
+			if (!wrongAnswers.contains(rightAnswer)) {
+				wrongAnswers.insert(vFirst.back());
+			}
+			vFirst.push_back(vFirst.back()); 
+			
 		}
 
 		system("pause");
@@ -47,6 +48,4 @@ public:
 		return true;
 	}
 
-	
 };
-
